@@ -5,7 +5,7 @@ export default <VdoingThemeConfig>{
   nav: nav, 
   sidebarDepth: 2, 
   logo: "/assets/img/logo.png", 
-  repo: "u2sb/vuepress-theme-vdoing-template", 
+  repo: "gaoajia/HPU_WiFi-wiki", 
   searchMaxSuggestions: 10, 
   lastUpdated: "上次更新", 
   docsDir: "docs", 
