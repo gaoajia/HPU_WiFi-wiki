@@ -5,6 +5,7 @@ import themeConfig from "./config/themeVdoingConfig";
 import markdown from "./config/markdown";
 import plugins from "./config/plugins";
 import head from "./config/head";
+import { resolve } from 'path'
 
 export default defineConfig4CustomTheme<VdoingThemeConfig>({
   title: "HPU_WiFi-wiki", 
@@ -12,7 +13,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
   dest: "dist", 
   shouldPrefetch: () => false, 
   head: head, 
-  theme: "vdoing",
+  theme: resolve(__dirname, '../../vdoing'),
   themeConfig, 
   markdown, 
   plugins,

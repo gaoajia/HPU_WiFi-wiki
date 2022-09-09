@@ -47,4 +47,10 @@ export default <VdoingThemeConfig>{
       },
     ],
   },
+  footer: {
+    createYear: 2022,
+    copyrightInfo: `
+      <a href='https://www.gaoajia.com' target='_blank'>AjiaErin</a> | <a href='https://creativecommons.org/licenses/by-nc-sa/4.0/' rel='external nofollow' target='_blank'>CC BY-NC-SA 4.0</a>
+    `, 
+  },
 };
