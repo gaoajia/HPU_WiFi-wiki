@@ -11,7 +11,7 @@ export default <Array<NavItem>>[
         link: "/start/",
       },
       {
-        text: "故障a",
+        text: "故障",
         link: "/deploy/",
       },
       {
@@ -20,4 +20,5 @@ export default <Array<NavItem>>[
       },
     ],
   },
+  { text: "问答", link: "/questions/"},
 ];
